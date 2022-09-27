@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+  <head>
+    <body style="background-color:#f5a39d;">
+  </head>
+<script>
+  alert("This is a list of bookmarklets, if you don't know how to use one take a look at this page for help!")
+ alert("https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/#:~:text=Just%20click%20the%20bookmarklet%20and,tap%20or%20click%20the%20bookmark.")
+  </script>
+  <body>
+    <h1 style="border:5px solid Tomato;">
+<h1 style="text-align: center;">A list of my bookmarklets</h1>
+</h1>
+
+  </body>
+  <h2 style="text-align: center;">
+  <a href="javascript:(function()%7B(function() %7Bvar x %3D document.createElement("script")%3Bx.src %3D "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js"%3Bx.onload %3D alert("Hello, 41_i3. Loaded Developer Console!")%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()">
+Dev consol bookmarklet
+<p>&nbsp;</p>
+</a>
+<p style="text-align: center;">
+<a href="javascript:while(true)while(true)while(true)while(true)while(true)while(true){}">
+Tab breaker bookmarklet
+</a>
+</p>
+<p>-</ <p>&nbsp;</p>
+<p style="text-align: center;">
+<a href="javascript:var num=prompt("How many times would you like this page to be in your history?");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("History Flooding Successful!\n "+window.location.href+" \nNow Appears In Your History "+num+(num==1?" time.":" Times."))}">
+History flooder bookmarklet</p>
+</a>
+<p>-</ <p>&nbsp;</p>
+<p style="text-align: center;">
+<a href="data:text/html;charset=utf-8, <title>Dark Mode Notepad</title><body contenteditable style="font-family: Arial;font-weight:;background:%231E1E1E;color:%23FFFFFF;font-size:1rem;line-height:1.4;max-width:80rem;margin:0 auto;padding:2rem;" spellcheck="true">
+Dark Mode Notepad (Browser)</p>
+</a>
+</html>
